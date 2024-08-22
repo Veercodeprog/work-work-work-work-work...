@@ -1,0 +1,39 @@
+# Ignore Rust build artifacts
+/target/
+
+# Ignore generated Makefiles and other build artifacts in the project root
+Makefile
+*.make
+
+# Ignore cargo.lock file (optional, usually included for applications but not libraries)
+/Cargo.lock
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*.tmp
+*.log
+.DS_Store
+
+# Ignore IDE-specific files
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore OS-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore dependencies (if any, like if using submodules)
+/vendor/
+
+# Include binaries by removing the ignore rule for the target directory
+!target/release/
+!target/debug/
+
+# Include all binary files in target/release and target/debug directories
+!target/release/*
+!target/debug/*
+
