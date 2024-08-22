@@ -1,0 +1,1 @@
+/Users/veerpratap/Desktop/2024/Rust/Advent-of-code-2022/day-02/target/debug/part-1: /Users/veerpratap/Desktop/2024/Rust/Advent-of-code-2022/day-02/src/bin/part-1.rs /Users/veerpratap/Desktop/2024/Rust/Advent-of-code-2022/day-02/src/lib.rs
